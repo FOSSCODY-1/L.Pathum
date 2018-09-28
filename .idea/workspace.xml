@@ -2,23 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="446e397b-4dc0-44ab-bb34-0d9efdfa23a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/downmouth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/enemy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leftmouth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rightmouth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snakeimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snaketitle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Gameplay.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Gameplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upmouth.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snakeicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snaketitle.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/L.Pathum/Gamelogin$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/L.Pathum/Gamelogin$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/L.Pathum/Gamelogin$2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/L.Pathum/Gamelogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/L.Pathum/Gamelogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/L.Pathum/Gameplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/L.Pathum/Gameplay.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/L.Pathum/Gamewindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/L.Pathum/Gamewindow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gamelogin.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gamelogin.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snaketitle.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Gamelogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gamelogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gameplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gameplay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Gamewindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gamewindow.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -62,37 +56,39 @@
     <session id="2063211089">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.18" value="3" />
-          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.18" value="4" />
+          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.22" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4736" />
+          <entry key="java" value="7761" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4736" />
+          <entry key="JAVA" value="7761" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="form" value="4" />
+          <entry key="form" value="5" />
           <entry key="java" value="8" />
-          <entry key="jpg" value="3" />
-          <entry key="png" value="9" />
+          <entry key="jpg" value="7" />
+          <entry key="png" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="GUI_DESIGNER_FORM" value="4" />
-          <entry key="Image" value="12" />
+          <entry key="GUI_DESIGNER_FORM" value="5" />
+          <entry key="Image" value="18" />
           <entry key="JAVA" value="8" />
         </counts>
       </usages-collector>
@@ -103,8 +99,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Gamewindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="255">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Gamelogin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="5" column="75" selection-start-line="5" selection-start-column="75" selection-end-line="5" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,38 +121,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Gamelogin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1157#1158#0" expanded="true" />
-                <element signature="e#1200#1201#0" expanded="true" />
-                <element signature="e#1505#1506#0" expanded="true" />
-                <element signature="e#1548#1549#0" expanded="true" />
-                <element signature="e#1710#1711#0" expanded="true" />
-                <element signature="e#1753#1754#0" expanded="true" />
-                <element signature="e#1823#1824#0" expanded="true" />
-                <element signature="e#1866#1867#0" expanded="true" />
-                <element signature="e#2145#2146#0" expanded="true" />
-                <element signature="e#2188#2189#0" expanded="true" />
-                <element signature="e#4207#4208#0" expanded="true" />
-                <element signature="e#4251#4252#0" expanded="true" />
-                <element signature="e#4555#4556#0" expanded="true" />
-                <element signature="e#4599#4600#0" expanded="true" />
-                <element signature="e#999#1497#0" expanded="true" />
-                <element signature="e#1496#1497#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Gameplay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+            <state relative-caret-position="95">
+              <caret line="60" column="29" lean-forward="true" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -170,9 +150,9 @@
         <option value="$PROJECT_DIR$/src/SampleLayout.form" />
         <option value="$PROJECT_DIR$/src/SampleLayout.java" />
         <option value="$PROJECT_DIR$/src/Gamelogin.form" />
+        <option value="$PROJECT_DIR$/src/Gameplay.java" />
         <option value="$PROJECT_DIR$/src/Gamewindow.java" />
         <option value="$PROJECT_DIR$/src/Gamelogin.java" />
-        <option value="$PROJECT_DIR$/src/Gameplay.java" />
       </list>
     </option>
   </component>
@@ -183,8 +163,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
     <option name="width" value="1890" />
     <option name="height" value="1020" />
   </component>
@@ -194,8 +174,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,13 +190,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="307" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537387398579" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537811481004" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -267,18 +247,22 @@
       <workItem from="1537169633571" duration="20717000" />
       <workItem from="1537330725815" duration="17616000" />
       <workItem from="1537370179762" duration="615000" />
-      <workItem from="1537382215889" duration="5152000" />
+      <workItem from="1537382215889" duration="7978000" />
+      <workItem from="1537448499699" duration="9660000" />
+      <workItem from="1537588433427" duration="2400000" />
+      <workItem from="1537794955780" duration="15703000" />
+      <workItem from="1537901938178" duration="1948000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63424000" />
+    <option name="totallyTimeSpent" value="95961000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12469636" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13117409" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -288,7 +272,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.03156146" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3139535" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22923589" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.19089317" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -371,9 +355,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SampleLayout.java" />
-    <entry file="file://$PROJECT_DIR$/banner.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_51/src.zip!/java/awt/Container.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -382,9 +363,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Gamelogin.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gameplay.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/downmouth.png">
@@ -402,9 +380,6 @@
     <entry file="file://$PROJECT_DIR$/snakeimage.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/snaketitle.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/upmouth.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -415,10 +390,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/snaketitle.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/Gameplay.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/banner.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snaketitle.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snakeicon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gameplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="60" column="29" lean-forward="true" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Gamewindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="255">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -427,34 +425,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Gamelogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1157#1158#0" expanded="true" />
-            <element signature="e#1200#1201#0" expanded="true" />
-            <element signature="e#1505#1506#0" expanded="true" />
-            <element signature="e#1548#1549#0" expanded="true" />
-            <element signature="e#1710#1711#0" expanded="true" />
-            <element signature="e#1753#1754#0" expanded="true" />
-            <element signature="e#1823#1824#0" expanded="true" />
-            <element signature="e#1866#1867#0" expanded="true" />
-            <element signature="e#2145#2146#0" expanded="true" />
-            <element signature="e#2188#2189#0" expanded="true" />
-            <element signature="e#4207#4208#0" expanded="true" />
-            <element signature="e#4251#4252#0" expanded="true" />
-            <element signature="e#4555#4556#0" expanded="true" />
-            <element signature="e#4599#4600#0" expanded="true" />
-            <element signature="e#999#1497#0" expanded="true" />
-            <element signature="e#1496#1497#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gameplay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+        <state relative-caret-position="42">
+          <caret line="5" column="75" selection-start-line="5" selection-start-column="75" selection-end-line="5" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
