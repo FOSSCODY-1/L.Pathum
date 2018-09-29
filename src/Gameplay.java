@@ -2,14 +2,11 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
 import java.util.Random;
 
-import javax.swing.ImageIcon;
-import javax.swing.JPanel;
-import javax.swing.Timer;
+import javax.swing.*;
 
-public class Gameplay extends JPanel implements ActionListener,KeyListener{
+public class Gameplay extends JPanel implements ActionListener{
 
     private int[] snakexlength =new int[750];
     private int[] snakeylength =new int[750];
@@ -58,7 +55,7 @@ public class Gameplay extends JPanel implements ActionListener,KeyListener{
 
     Gameplay() {
 
-        addKeyListener(this);
+        //addKeyListener(this);
         setFocusable(true);
         setFocusTraversalKeysEnabled(true);
 
@@ -70,8 +67,99 @@ public class Gameplay extends JPanel implements ActionListener,KeyListener{
         timer = new Timer (delay, this);
         timer.start();
 
+        keybinding(KeyEvent.VK_ENTER,"Enter",(evt)->{
+            if(play)
+            {
+                play = false;
+            }
+            else
+            {
+                play = true;
+            }
+        });
 
+        keybinding(KeyEvent.VK_SPACE,"Space",(evt)->{
+
+            up = false;
+            down = false;
+            right = false;
+            left = false;
+            moves = 0;
+            score = 0;
+            lengthofsnake = 3;
+            flag= true;
+            play = true;
+            repaint();
+        });
+
+        keybinding(KeyEvent.VK_RIGHT,"Right",(evt)->{
+            if(flag && play) {
+                moves++;
+                right = true;
+                if (left) {
+                    right = false;
+                    left = true;
+                }
+                up = false;
+                down = false;
+            }
+        });
+
+        keybinding(KeyEvent.VK_LEFT,"Left",(evt)->{
+            if(flag && play) {
+                moves++;
+                left = true;
+                if(right) {
+                    left = false;
+                    right = true;
+                }
+                up = false;
+                down = false;
+            }
+        });
+
+        keybinding(KeyEvent.VK_UP,"Up",(evt)->{
+            if(flag && play) {
+                moves++;
+                up = true;
+                if(down) {
+                    up = false;
+                    down = true;
+                }
+                right = false;
+                left = false;
+            }
+        });
+
+        keybinding(KeyEvent.VK_DOWN,"Down",(evt)->{
+            if(flag && play) {
+                moves++;
+                down = true;
+                if(up) {
+                    down = false;
+                    up = true;
+                }
+                right = false;
+                left = false;
+            }
+        });
     }
+
+
+    public  void keybinding(int keycode,String id, ActionListener actionListener)
+    {
+        InputMap im2 = getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW);
+        ActionMap ap2 = getActionMap();
+        im2.put(KeyStroke.getKeyStroke(keycode,0,false),id);
+        ap2.put(id, new AbstractAction() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                actionListener.actionPerformed(e);
+            }
+        });
+    }
+
+
 
 
     public void paint(Graphics g) {
@@ -307,98 +395,5 @@ public class Gameplay extends JPanel implements ActionListener,KeyListener{
 
         }
     }
-    @Override
-    public void keyPressed(KeyEvent e) {
-        int key = e.getKeyCode();
-        System.out.println("fuck0");
 
-        if(e.getKeyCode() == KeyEvent.VK_SPACE) {
-            System.out.println("fucker");
-            up = false;
-            down = false;
-            right = false;
-            left = false;
-            moves = 0;
-            score = 0;
-            lengthofsnake = 3;
-            flag= true;
-            play = true;
-            repaint();
-
-        }
-
-        if(e.getKeyCode() == KeyEvent.VK_ENTER)
-        {
-            if(play)
-            {
-                play = false;
-            }
-            else
-            {
-                play = true;
-            }
-        }
-
-        if(flag && play) {
-
-            if(key == KeyEvent.VK_RIGHT) {
-                moves++;
-                System.out.println("fuck1");
-                right = true;
-                if(left) {
-                    right = false;
-                    left = true;
-                }
-                up = false;
-                down = false;
-            }
-            else if(key == KeyEvent.VK_LEFT) {
-                moves++;
-                System.out.println("fuck2");
-                left = true;
-                if(right) {
-                    left = false;
-                    right = true;
-                }
-                up = false;
-                down = false;
-            }
-            else if(key == KeyEvent.VK_UP) {
-                moves++;
-                System.out.println("fuck3");
-                up = true;
-                if(down) {
-                    up = false;
-                    down = true;
-                }
-                right = false;
-                left = false;
-            }
-            else if(key == KeyEvent.VK_DOWN) {
-                moves++;
-                System.out.println("fuck4");
-                down = true;
-                if(up) {
-                    down = false;
-                    up = true;
-                }
-                right = false;
-                left = false;
-            }
-        }
-
-
-    }
-
-    @Override
-    public void keyReleased(KeyEvent e) {
-        // TODO Auto-generated method stub
-
-    }
-
-    @Override
-    public void keyTyped(KeyEvent e) {
-        // TODO Auto-generated method stub
-
-    }
 }
